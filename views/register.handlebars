@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <h1 class="text-center">Register</h1>
+
+
+            <form action="api/users/register" method="POST">
+                {{!-- // Compare this snippet from /views/login.handlebars --}}
+                <div class="mb-3">
+                    <label class="form-label">Username</label>
+                    <input type="text" name="username" class="form-control" id="firstName">
+                </div>
+
+            
+                <div class="mb-3">
+                    <label class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+
+
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="password">
+                    <a href="/login" id="passwordHelp">Login Instead</a>
+                </div>
+
+                <button  class="btn btn-primary">Register</button>
+
+            </form>
+
+
+        </div>
+    </div>
+</div>
