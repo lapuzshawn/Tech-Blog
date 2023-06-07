@@ -27,7 +27,7 @@ Sequelize as the ORM (Object-Relational Mapping) tool for database management, a
 4. Create a `.env` file in the root directory and add the following environment variables: *see .env.EXAMPLE*
 5. Start the application by running: "node server.js"
 6. Access the application in your browser at `http://localhost:3001`.
-
+7. Keep in mind, "no blogging allowed during coding hours" 
 
 ## Deployed Application
 
@@ -59,3 +59,4 @@ If you have any questions, feel free to reach out on LinkedIn
 ![.](./Assets/M14-SS4.png) 
 
 ![.](./Assets/M14-SS5.png) 
+
